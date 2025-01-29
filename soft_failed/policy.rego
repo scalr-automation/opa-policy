@@ -1,5 +1,7 @@
 package terraform 
 
-deny["Always soft failed policy for auto testing"] {
+import rego.v1
+
+deny["Always soft failed policy for auto testing"] if {
     true
 }
