@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["One clearly water arrive policy available watch wait."] {
+                true
+            }
