@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Suddenly idea beat through admit kind reflect standard."] {
+                true
+            }
