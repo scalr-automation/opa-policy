@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Resource score do recently sometimes remember movie."] {
+                true
+            }
