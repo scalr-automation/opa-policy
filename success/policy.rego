@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Early recognize end collection try reveal particularly."] {
+                true
+            }
