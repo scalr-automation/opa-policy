@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Body easy rise cup face keep decision alone."] {
+                true
+            }
