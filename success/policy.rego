@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Usually deep hour nearly remain ok cell."] {
+                true
+            }
