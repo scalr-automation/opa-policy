@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Everyone person force control artist task thousand while."] {
+                true
+            }
