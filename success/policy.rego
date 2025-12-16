@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Want pattern relate after he near determine billion."] {
+                true
+            }
