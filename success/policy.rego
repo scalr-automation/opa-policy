@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Born new event worry tree rule discussion."] {
+                true
+            }
