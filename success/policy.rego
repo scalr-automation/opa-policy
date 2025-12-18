@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Capital open director even west radio quite mention."] {
+                true
+            }
