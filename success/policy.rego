@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Bad available pick security society sign compare ask."] {
+                true
+            }
