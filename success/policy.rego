@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Enough old year fire ready interest cell."] {
+                true
+            }
