@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Blue simple behind I house bring appear."] {
+                true
+            }
