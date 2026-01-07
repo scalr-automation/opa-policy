@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Reflect each save feel difference follow never."] {
+                true
+            }
