@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Successful first relate catch goal become poor."] {
+                true
+            }
