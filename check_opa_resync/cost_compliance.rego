@@ -1,4 +1,4 @@
 package terraform
 
-default deny = [
+default deny = 
 message = "Always passed policy for auto testing"
