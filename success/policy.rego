@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["During always hit rich training place situation traditional."] {
+                true
+            }
