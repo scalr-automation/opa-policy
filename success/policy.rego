@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Fight lead analysis dream section eat wall entire."] {
+                true
+            }
