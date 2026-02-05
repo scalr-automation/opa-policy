@@ -1,6 +1,6 @@
 version = "v1"
 
-policy "policy" {
+policy "check_provider_version" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
