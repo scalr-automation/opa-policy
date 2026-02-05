@@ -1,16 +1,11 @@
 package terraform
-import input.tfrun as tfrun
+
+import input.tfplan
 
 deny[msg] {
-    # Get the provider version from terraform_version info
-    provider := tfrun.providers["registry.terraform.io/hashicorp/aws"]
-    version := provider.version
-    
-    # Parse version (remove any 'v' prefix if present)
-    clean_version := trim_prefix(version, "v")
-    
-    # Compare versions
-    semver.compare(clean_version, "5.0.0") == -1
-    
-    msg := sprintf("AWS provider version %s is below required 5.0.0", [clean_version])
+    provider_config := tfplan.configuration.provider_config.aws
+    version := provider_config.version_constraint
+    major := to_number(split(version, ".")[0])
+    major < 5
+    msg := sprintf("AWS provider version %s is below required 5.0.0", [version])
 }
