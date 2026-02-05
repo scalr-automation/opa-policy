@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Interview statement language whose soldier can game."] {
+                true
+            }
