@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Million already hot group at probably difference stage."] {
+                true
+            }
