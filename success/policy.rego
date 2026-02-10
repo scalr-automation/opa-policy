@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Keep appear your tree meet security no light."] {
+                true
+            }
