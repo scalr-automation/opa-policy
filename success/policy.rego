@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Very throughout table nothing indicate citizen."] {
+                true
+            }
