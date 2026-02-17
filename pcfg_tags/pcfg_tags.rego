@@ -18,7 +18,7 @@ deny[reason] {
 deny[reason] {
     pcfg := tfrun.workspace.provider_configurations[_]
     pcfg.provider == "aws"
-    tags := pcfg.tags | []
+    tags := pcfg.tags
     not array_contains(tags, required_tag)
     reason := sprintf(
         "AWS provider configuration '%s' is missing required tag '%s'; current tags: %v",
