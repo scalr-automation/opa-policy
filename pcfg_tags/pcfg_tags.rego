@@ -4,32 +4,34 @@ import input.tfrun as tfrun
 
 required_tag := "approved"
 
-# Default to empty list if tags key is missing or null
-tags_list(pcfg) := xs if {
-    xs := pcfg.tags
-}
-tags_list(pcfg) := [] if {
-    not pcfg.tags
-}
-
 array_contains(arr, elem) if {
     arr[_] == elem
 }
 
-# Fail when workspace has no provider configurations (nothing to iterate → policy would pass)
-deny contains reason if {
+# Message when workspace has no provider configs
+deny_msg_no_configs if {
     count(tfrun.workspace.provider_configurations) == 0
-    reason := "No provider configurations in workspace; policy requires at least one AWS provider configuration to validate tags."
+}
+deny_msg_no_configs := "No provider configurations in workspace; policy requires at least one AWS provider configuration to validate tags." if {
+    count(tfrun.workspace.provider_configurations) == 0
 }
 
-# Fail when any AWS provider config is missing the required tag (covers no tags / wrong tags)
-deny contains reason if {
+# Message when an AWS pcfg is missing the required tag
+deny_msg_missing_tag(msg) if {
     pcfg := tfrun.workspace.provider_configurations[_]
     pcfg.provider == "aws"
-    tags := tags_list(pcfg)
+    tags := pcfg.tags | []
     not array_contains(tags, required_tag)
-    reason := sprintf(
+    msg := sprintf(
         "AWS provider configuration '%s' is missing required tag '%s'; current tags: %v",
         [pcfg.name, required_tag, tags]
     )
+}
+
+# Deny set: collect all messages from helpers (no var as rule name in deny head)
+deny contains msg if {
+    msg := deny_msg_no_configs
+}
+deny contains msg if {
+    deny_msg_missing_tag(msg)
 }
