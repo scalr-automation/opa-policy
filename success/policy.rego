@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Appear view conference pull focus evidence charge."] {
+                true
+            }
