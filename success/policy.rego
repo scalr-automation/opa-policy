@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Clearly create despite physical role between window whatever."] {
+                true
+            }
