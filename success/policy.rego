@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["According notice market direction notice cut financial section."] {
+                true
+            }
