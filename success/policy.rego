@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Behind bag candidate amount within would bar."] {
+                true
+            }
