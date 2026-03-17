@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Forward benefit around interest state morning west."] {
+                true
+            }
