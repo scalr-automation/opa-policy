@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Pm skin difficult wall parent draw position."] {
+                true
+            }
