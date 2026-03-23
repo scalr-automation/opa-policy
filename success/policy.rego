@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Turn day compare the site arrive land color."] {
+                true
+            }
