@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Visit something reveal prepare power project notice cell."] {
+                true
+            }
