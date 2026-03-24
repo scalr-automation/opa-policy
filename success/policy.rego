@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Determine activity culture clear focus both particular."] {
+                true
+            }
