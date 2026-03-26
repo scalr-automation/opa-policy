@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Player job rise body but difference seek lot."] {
+                true
+            }
