@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Feel hear almost wait later miss generation range."] {
+                true
+            }
