@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["See prove home water degree second friend agent."] {
+                true
+            }
