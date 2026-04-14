@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Research shoulder deal push reach instead wait."] {
+                true
+            }
