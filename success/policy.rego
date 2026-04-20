@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Child attack either same cover Mrs head."] {
+                true
+            }
