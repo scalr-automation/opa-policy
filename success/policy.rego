@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Over deep region effort investment simple quality."] {
+                true
+            }
