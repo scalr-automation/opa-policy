@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Full lot environment anything this return prepare."] {
+                true
+            }
