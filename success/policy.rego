@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Wait impact radio rate care both Mrs."] {
+                true
+            }
