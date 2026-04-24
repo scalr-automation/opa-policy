@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Show author keep safe Republican time else million."] {
+                true
+            }
