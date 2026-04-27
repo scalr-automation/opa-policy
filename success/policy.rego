@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Test many pattern but assume respond successful level."] {
+                true
+            }
