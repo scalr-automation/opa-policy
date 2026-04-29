@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Black card cup middle treat within relate there."] {
+                true
+            }
