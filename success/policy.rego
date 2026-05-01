@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Despite go model if during game trouble behind."] {
+                true
+            }
