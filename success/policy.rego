@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Commercial traditional share window whether room good."] {
+                true
+            }
