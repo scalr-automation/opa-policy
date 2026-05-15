@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Rate subject determine shake energy drop north."] {
+                true
+            }
