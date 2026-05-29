@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Window computer poor reason scene break whether."] {
+                true
+            }
