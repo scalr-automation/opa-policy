@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Improve realize organization quality parent material instead wind."] {
+                true
+            }
