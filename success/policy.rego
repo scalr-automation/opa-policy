@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Perform current on finish these behavior prevent."] {
+                true
+            }
