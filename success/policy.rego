@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Open tree site data compare bed voice soldier."] {
+                true
+            }
