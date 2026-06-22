@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Tonight discover modern remember activity bar action data."] {
+                true
+            }
