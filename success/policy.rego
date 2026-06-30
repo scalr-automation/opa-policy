@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Mother share public wrong mean entire deal through."] {
+                true
+            }
