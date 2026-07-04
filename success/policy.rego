@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Until phone specific reduce especially understand wall."] {
+                true
+            }
