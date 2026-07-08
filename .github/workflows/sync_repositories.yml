@@ -1,0 +1,24 @@
+name: Sync repos
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main repository
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Git
+        run: |
+          git config --global user.name "scalr-autotester"
+          git config --global user.email "scalr-autotester@scalr.com"
+          git config --unset-all http.https://github.com/.extraheader
+      - name: Sync repositories
+        run: |
+          git remote add gh-ee-repo https://AKramarenko:${{ secrets.GH_EE_TOKEN }}@github-ee.main.scalr.dev/scalr-automation/opa-policy.git
+          git push --force gh-ee-repo main --follow-tags
