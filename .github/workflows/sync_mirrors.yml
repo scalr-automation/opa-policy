@@ -1,4 +1,4 @@
-name: Sync repos
+name: Sync mirror repos
 on:
   push:
     branches:

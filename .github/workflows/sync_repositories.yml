@@ -1,4 +1,4 @@
-name: Sync repos
+name: Sync ee repos
 on:
   push:
     branches:
