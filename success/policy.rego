@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Surface even view thank north suddenly show."] {
+                true
+            }
