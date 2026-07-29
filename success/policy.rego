@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["History according oil eat role kitchen account."] {
+                true
+            }
