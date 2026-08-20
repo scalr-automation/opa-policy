@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Reveal shoulder mission great over resource instead truth."] {
+                true
+            }
