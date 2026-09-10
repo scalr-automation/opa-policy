@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Arm example long expect use pull early difference."] {
+                true
+            }
