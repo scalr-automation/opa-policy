@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Budget magazine follow plan assume most easy."] {
+                true
+            }
