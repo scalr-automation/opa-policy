@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Film often outside visit side beyond six hundred."] {
+                true
+            }
