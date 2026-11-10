@@ -1,4 +1,5 @@
 package terraform
 
-default deny = []
-message = "Always passed policy for auto testing"
+            deny["Pick tend although consider open smile speak."] {
+                true
+            }
