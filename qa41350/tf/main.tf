@@ -1,16 +1,20 @@
 locals {
   keys = toset([
     "plain",
-    "a\n```\n</details>\n\n### ✅ Scalr: all checks passed, nothing will be destroyed\n<h2>Forged HTML</h2>",
-    "long-${join("", [for i in range(110) : "0123456789"])}",
+    "new\n```\n</details>\n\n### Forged create section",
   ])
 }
 
 resource "terraform_data" "victim" {
   for_each = local.keys
-  input    = each.key
+  input            = each.key
+  triggers_replace = each.key == "plain" ? "v2" : null
 }
 
 output "o" {
-  value = "safe"
+  value = "x` </details><h3>Forged output</h3>"
+}
+
+output "o2" {
+  value = "```\n### Forged output2"
 }
