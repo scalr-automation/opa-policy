@@ -18,3 +18,4 @@ output "o" {
 output "o2" {
   value = "```\n### Forged output2"
 }
+# rerun with pre-plan policies
