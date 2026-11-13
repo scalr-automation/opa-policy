@@ -20,3 +20,4 @@ output "o2" {
 }
 # rerun with pre-plan policies
 # obuduhai10 rerun
+# obuduhai10 pre-plan rerun
