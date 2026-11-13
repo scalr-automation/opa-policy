@@ -14,3 +14,7 @@ resource "terraform_data" "victim" {
 output "o" {
   value = "safe"
 }
+
+resource "terraform_data" "policy_trigger" {}
+# rerun with policies
+# obuduhai10 rerun
